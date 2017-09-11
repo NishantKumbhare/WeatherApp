@@ -19,7 +19,18 @@ namespace WeatherApp
             WeatherModel weatherModel = new WeatherModel();
             weatherModel = await api.GetWeatherData();
 
+            var displayValue = "Celsius:- " + weatherModel.current_observation.temp_c + "\n" +
+                                                      "Fahrenheit:-" + weatherModel.current_observation.temp_f + "\n" +
+                                                      "Time:-" + weatherModel.current_observation.observation_time;
+
+            temperature.Text = displayValue;
+            overlay.IsVisible = true;
         }
+
+		void OnOKButtonClicked(object sender, System.EventArgs e)
+		{
+			overlay.IsVisible = false;
+		}
 
         void showAlertView(string message)
         {

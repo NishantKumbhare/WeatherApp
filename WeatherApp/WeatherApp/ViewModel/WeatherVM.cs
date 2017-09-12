@@ -1,26 +1,49 @@
-﻿using System;
+﻿
 using WeatherApp.Model;
-using Xamarin.Forms;
+using System.Threading.Tasks;
+using WeatherApp.Webservice;
 
 namespace WeatherApp.ViewModel
 {
-    public class WeatherVM
+    
+    public class WeatherVM : VIewModelBase
     {
-        public string Fahrenheit {
-            get => Fahrenheit;
-            set => Fahrenheit = new WeatherModel().current_observation.temp_c;
+
+        WeatherAPI weatherAPI = new WeatherAPI();
+
+        private WeatherModel weatherModel;
+
+		public WeatherModel WeatherModel
+		{
+			get { return weatherModel; }
+			set
+			{
+				weatherModel = value;
+				OnPropertyChanged();
+			}
+		}
+
+		private string fahrenheit;
+		public string Fahrenheit {
+            get => fahrenheit;
+            set => fahrenheit = WeatherModel.temp_f;
         }
 
         public string Celsius
         {
             get => Celsius;
-            set => Celsius = new WeatherModel().current_observation.temp_c;
-        }
+            set => Celsius = WeatherModel.temp_c;
+		}
 
         public string Time
         {
             get => Time;
-            set => Time = new WeatherModel().current_observation.observation_time_rfc822;
+            set => Time = WeatherModel.observation_time;
+		}
+
+        public async Task InitializeGetWeatherAsync()
+        {
+            weatherModel = await weatherAPI.GetWeatherData();
         }
 
     }

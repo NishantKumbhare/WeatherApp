@@ -2,7 +2,8 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
     xmlns:local="clr-namespace:WeatherApp" 
-    x:Class="WeatherApp.WeatherAppPage">
+    x:Class="WeatherApp.WeatherAppPage"
+    xmlns:weatherVM="clr-namespace:WeatherApp.WeatherVM">
        
    <AbsoluteLayout>
     <!-- Normal Page Content -->
@@ -26,7 +27,12 @@
                  IsVisible="False"
                  BackgroundColor="#C0808080"
                  Padding="10, 0">
-      
+
+            <ContentPage.BindingContext>
+                <weatherVM:WeatherVM/>
+                <weatherVM:InitializeGetWeatherAsync/>
+            </ContentPage.BindingContext>
+            
       <StackLayout Orientation="Vertical" 
                    BackgroundColor="White" 
                    HeightRequest="175" 
@@ -44,13 +50,29 @@
                 HorizontalTextAlignment="Center"/>
 
          <StackLayout>
-               <Label x:Name="temperature"
-                        FontSize="18" 
+                    
+               <Label x:Name="fahren"
+                        FontSize="15" 
                         TextColor="Black" 
                         VerticalTextAlignment="Center"
                         HorizontalTextAlignment="Center"
-                        Text="Temperature"/>
-        </StackLayout>
+                        Text="{Binding Fahrenheit:- WeatherModel.temp_f}"/>
+
+                    <Label x:Name="cel"
+                        FontSize="15" 
+                        TextColor="Black" 
+                        VerticalTextAlignment="Center"
+                        HorizontalTextAlignment="Center"
+                        Text="{Binding Celsius:- WeatherModel.temp_c}"/>
+                    
+                    <Label x:Name="tm"
+                        FontSize="15" 
+                        TextColor="Black" 
+                        VerticalTextAlignment="Center"
+                        HorizontalTextAlignment="Center"
+                        Text="{Binding Time:- WeatherModel.observation_time}"/>
+                    
+           </StackLayout>
                 
         <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
 

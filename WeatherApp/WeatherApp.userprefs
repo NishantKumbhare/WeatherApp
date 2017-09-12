@@ -1,11 +1,21 @@
 ﻿<Properties StartupConfiguration="{3970DA9D-5468-48E2-8659-89C103D71A5C}|Default">
-  <MonoDevelop.Ide.ItemProperties.WeatherApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.0E90FC30-D76C-4924-BEB3-828AB3C38EA1">
-    <MonoDevelop.MacDev.AppleDevelopmentTeam />
-  </MonoDevelop.Ide.ItemProperties.WeatherApp.iOS>
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.ItemProperties.WeatherApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="WeatherApp/ViewModel/ViewModelBase.cs">
+    <Files>
+      <File FileName="WeatherApp/Webservice/WeatherAPI.cs" Line="30" Column="6" />
+      <File FileName="WeatherApp/ViewModel/WeatherVM.cs" Line="62" Column="1" />
+      <File FileName="WeatherApp/WeatherAppPage.xaml" Line="91" Column="1" />
+      <File FileName="WeatherApp/WeatherAppPage.xaml.cs" Line="23" Column="26" />
+      <File FileName="WeatherApp/Model/WeatherModel.cs" Line="9" Column="34" />
+      <File FileName="WeatherApp/obj/Debug/WeatherApp.WeatherAppPage.xaml.g.cs" Line="35" Column="1" />
+      <File FileName="WeatherApp/ViewModel/ViewModelBase.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Hybrid/Xamarin/WeatherApp/WeatherApp/WeatherApp/Webservice/WeatherAPI.cs" relfile="WeatherApp/Webservice/WeatherAPI.cs" line="21" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />

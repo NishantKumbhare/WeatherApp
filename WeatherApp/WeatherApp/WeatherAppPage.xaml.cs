@@ -16,12 +16,12 @@ namespace WeatherApp
             fahren.Text = "Fahrenheit:- " + weatherVM.Fahrenheit;
             cel.Text = "Celsius:- " + weatherVM.Celsius;
             tm.Text = "Recorded Time:- " + weatherVM.Time;
-            overlay.IsVisible = true;
+            alertPopup.IsVisible = true;
         }
 
         void OnOKButtonClicked(object sender, System.EventArgs e)
 		{
-			overlay.IsVisible = false;
+			alertPopup.IsVisible = false;
 		}
 
     }

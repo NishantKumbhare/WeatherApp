@@ -21,7 +21,7 @@
         </StackLayout>
 
     <!-- Overlay -->
-    <ContentView x:Name="overlay"
+    <ContentView x:Name="alertPopup"
                  AbsoluteLayout.LayoutBounds="0, 0, 1, 1"
                  AbsoluteLayout.LayoutFlags="All"
                  IsVisible="False"

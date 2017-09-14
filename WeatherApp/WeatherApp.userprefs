@@ -1,32 +1,22 @@
-﻿<Properties StartupConfiguration="{3970DA9D-5468-48E2-8659-89C103D71A5C}|Default">
+﻿<Properties StartupConfiguration="{5DBFE17F-49C8-48F1-A780-BBDB4FC02F5F}|Default">
   <MonoDevelop.Ide.ItemProperties.WeatherApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="WeatherApp.UITests/AppInitializer.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../../../Library/Frameworks/Xamarin.iOS.framework/Versions/10.12.3.3/lib/msbuild/iOS/Xamarin.iOS.Common.targets">
     <Files>
-      <File FileName="WeatherApp/WeatherAppPage.xaml.cs" Line="18" Column="23" />
+      <File FileName="WeatherApp/WeatherAppPage.xaml.cs" Line="16" Column="26" />
       <File FileName="WeatherApp/ViewModel/WeatherVM.cs" Line="48" Column="59" />
       <File FileName="WeatherApp.UITests/Tests.cs" Line="11" Column="20" />
-      <File FileName="WeatherApp/WeatherAppPage.xaml" Line="53" Column="37" />
+      <File FileName="WeatherApp/WeatherAppPage.xaml" Line="24" Column="36" />
       <File FileName="WeatherApp/Model/WeatherModel.cs" Line="8" Column="19" />
       <File FileName="WeatherApp/Service/WeatherAPI.cs" Line="33" Column="74" />
-      <File FileName="WeatherApp/Constant/Weather.cs" Line="12" Column="9" />
-      <File FileName="WeatherApp.UITests/AppInitializer.cs" Line="26" Column="1" />
+      <File FileName="WeatherApp/Constant/Weather.cs" Line="11" Column="63" />
+      <File FileName="WeatherApp.UITests/AppInitializer.cs" Line="43" Column="1" />
+      <File FileName="../../../../Library/Frameworks/Xamarin.iOS.framework/Versions/10.12.3.3/lib/msbuild/iOS/Xamarin.iOS.Common.targets" Line="1280" Column="3" />
     </Files>
     <Pads>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
-          <Node name="WeatherApp" expanded="True">
-            <Node name="WeatherApp.UITests" expanded="True">
-              <Node name="WeatherApp" expanded="True">
-                <Node name="UITests" expanded="True">
-                  <Node name="Tests" expanded="True">
-                    <Node name="Tests(Android)" expanded="True">
-                      <Node name="weatherButtonPressedTest" selected="True" />
-                    </Node>
-                    <Node name="Tests(iOS)" expanded="True" />
-                  </Node>
-                </Node>
-              </Node>
-            </Node>
+          <Node name="WeatherApp" expanded="True" selected="True">
+            <Node name="WeatherApp.UITests" expanded="True" />
           </Node>
         </State>
       </Pad>

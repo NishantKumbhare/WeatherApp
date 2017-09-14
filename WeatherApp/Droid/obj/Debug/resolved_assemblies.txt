@@ -52,3 +52,11 @@
 /Hybrid/Xamarin/WeatherApp/WeatherApp/Droid/obj/Debug/android/assets/System.Runtime.InteropServices.dll
 /Hybrid/Xamarin/WeatherApp/WeatherApp/Droid/obj/Debug/android/assets/Mono.Security.dll
 /Hybrid/Xamarin/WeatherApp/WeatherApp/Droid/obj/Debug/android/assets/System.Diagnostics.Tools.dll
+/Hybrid/Xamarin/WeatherApp/WeatherApp/Droid/obj/Debug/android/assets/Newtonsoft.Json.dll
+/Hybrid/Xamarin/WeatherApp/WeatherApp/Droid/obj/Debug/android/assets/System.Resources.ResourceManager.dll
+/Hybrid/Xamarin/WeatherApp/WeatherApp/Droid/obj/Debug/android/assets/System.Xml.XDocument.dll
+/Hybrid/Xamarin/WeatherApp/WeatherApp/Droid/obj/Debug/android/assets/System.Xml.Linq.dll
+/Hybrid/Xamarin/WeatherApp/WeatherApp/Droid/obj/Debug/android/assets/System.Runtime.Serialization.Primitives.dll
+/Hybrid/Xamarin/WeatherApp/WeatherApp/Droid/obj/Debug/android/assets/System.Text.Encoding.dll
+/Hybrid/Xamarin/WeatherApp/WeatherApp/Droid/obj/Debug/android/assets/System.Text.Encoding.Extensions.dll
+/Hybrid/Xamarin/WeatherApp/WeatherApp/Droid/obj/Debug/android/assets/Microsoft.CSharp.dll

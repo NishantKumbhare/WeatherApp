@@ -1,8 +1,15 @@
 /Hybrid/Xamarin/WeatherApp/WeatherApp/WeatherApp/bin/Debug/WeatherApp.dll
 /Hybrid/Xamarin/WeatherApp/WeatherApp/WeatherApp/bin/Debug/WeatherApp.pdb
+/Hybrid/Xamarin/WeatherApp/WeatherApp/WeatherApp/bin/Debug/Newtonsoft.Json.dll
+/Hybrid/Xamarin/WeatherApp/WeatherApp/WeatherApp/bin/Debug/System.Net.Http.Extensions.dll
+/Hybrid/Xamarin/WeatherApp/WeatherApp/WeatherApp/bin/Debug/System.Net.Http.Primitives.dll
+/Hybrid/Xamarin/WeatherApp/WeatherApp/WeatherApp/bin/Debug/test-cloud.exe
 /Hybrid/Xamarin/WeatherApp/WeatherApp/WeatherApp/bin/Debug/Xamarin.Forms.Core.dll
 /Hybrid/Xamarin/WeatherApp/WeatherApp/WeatherApp/bin/Debug/Xamarin.Forms.Platform.dll
 /Hybrid/Xamarin/WeatherApp/WeatherApp/WeatherApp/bin/Debug/Xamarin.Forms.Xaml.dll
+/Hybrid/Xamarin/WeatherApp/WeatherApp/WeatherApp/bin/Debug/System.Net.Http.Extensions.xml
+/Hybrid/Xamarin/WeatherApp/WeatherApp/WeatherApp/bin/Debug/System.Net.Http.Primitives.xml
+/Hybrid/Xamarin/WeatherApp/WeatherApp/WeatherApp/bin/Debug/Newtonsoft.Json.xml
 /Hybrid/Xamarin/WeatherApp/WeatherApp/WeatherApp/bin/Debug/Xamarin.Forms.Core.pdb
 /Hybrid/Xamarin/WeatherApp/WeatherApp/WeatherApp/bin/Debug/Xamarin.Forms.Core.dll.mdb
 /Hybrid/Xamarin/WeatherApp/WeatherApp/WeatherApp/bin/Debug/Xamarin.Forms.Core.xml
@@ -11,7 +18,6 @@
 /Hybrid/Xamarin/WeatherApp/WeatherApp/WeatherApp/bin/Debug/Xamarin.Forms.Xaml.pdb
 /Hybrid/Xamarin/WeatherApp/WeatherApp/WeatherApp/bin/Debug/Xamarin.Forms.Xaml.dll.mdb
 /Hybrid/Xamarin/WeatherApp/WeatherApp/WeatherApp/bin/Debug/Xamarin.Forms.Xaml.xml
-/Hybrid/Xamarin/WeatherApp/WeatherApp/WeatherApp/obj/Debug/WeatherApp.csprojResolveAssemblyReference.cache
 /Hybrid/Xamarin/WeatherApp/WeatherApp/WeatherApp/obj/Debug/WeatherApp.csproj.CoreCompileInputs.cache
 /Hybrid/Xamarin/WeatherApp/WeatherApp/WeatherApp/obj/Debug/WeatherApp.App.xaml.g.cs
 /Hybrid/Xamarin/WeatherApp/WeatherApp/WeatherApp/obj/Debug/WeatherApp.WeatherAppPage.xaml.g.cs

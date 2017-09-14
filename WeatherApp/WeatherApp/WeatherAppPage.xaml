@@ -3,7 +3,7 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
     xmlns:local="clr-namespace:WeatherApp" 
     x:Class="WeatherApp.WeatherAppPage"
-    xmlns:weatherVM="clr-namespace:WeatherApp.WeatherVM">
+    xmlns:weatherVM="clr-namespace:WeatherApp.ViewModel.WeatherVM">
        
    <AbsoluteLayout>
     <!-- Normal Page Content -->
@@ -28,10 +28,9 @@
                  BackgroundColor="#C0808080"
                  Padding="10, 0">
 
-            <ContentPage.BindingContext>
-                <weatherVM:WeatherVM/>
-                <weatherVM:InitializeGetWeatherAsync/>
-            </ContentPage.BindingContext>
+            <!--<ContentPage.BindingContext>
+                <weatherVM:WeatherApp.ViewModel.WeatherVM/>
+            </ContentPage.BindingContext>-->
             
       <StackLayout Orientation="Vertical" 
                    BackgroundColor="White" 
@@ -56,21 +55,21 @@
                         TextColor="Black" 
                         VerticalTextAlignment="Center"
                         HorizontalTextAlignment="Center"
-                        Text="{Binding Fahrenheit:- WeatherModel.temp_f}"/>
+                        Text="{Binding Fahrenheit:- weatherVM.temp_f}"/>
 
                     <Label x:Name="cel"
                         FontSize="15" 
                         TextColor="Black" 
                         VerticalTextAlignment="Center"
                         HorizontalTextAlignment="Center"
-                        Text="{Binding Celsius:- WeatherModel.temp_c}"/>
+                        Text="{Binding Celsius:- weatherVM.temp_c}"/>
                     
                     <Label x:Name="tm"
                         FontSize="15" 
                         TextColor="Black" 
                         VerticalTextAlignment="Center"
                         HorizontalTextAlignment="Center"
-                        Text="{Binding Time:- WeatherModel.observation_time}"/>
+                        Text="{Binding Time:- weatherVM.observation_time}"/>
                     
            </StackLayout>
                 

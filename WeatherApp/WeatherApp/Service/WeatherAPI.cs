@@ -28,7 +28,10 @@ namespace WeatherApp.Webservice
 				if (weatherJson != null)
 				{
 					dynamic jObj = JsonConvert.DeserializeObject(weatherJson);
-					weatherModel = jObj["current_observation"];
+                    weatherModel.observation_time = (string)jObj["current_observation"]["observation_time"];
+                    weatherModel.temp_c = (string)jObj["current_observation"]["temp_c"];
+                    weatherModel.temp_f = (string)jObj["current_observation"]["temp_f"];
+
 					System.Diagnostics.Debug.WriteLine("Fahrenheit:- " + weatherModel.temp_f);
 					System.Diagnostics.Debug.WriteLine("Celsius:- " + weatherModel.temp_c);
 					System.Diagnostics.Debug.WriteLine("Request Time:- " + weatherModel.observation_time);

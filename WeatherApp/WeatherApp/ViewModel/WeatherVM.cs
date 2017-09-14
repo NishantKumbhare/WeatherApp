@@ -26,24 +26,30 @@ namespace WeatherApp.ViewModel
 		private string fahrenheit;
 		public string Fahrenheit {
             get => fahrenheit;
-            set => fahrenheit = WeatherModel.temp_f;
+            set => fahrenheit = weatherModel.temp_f;
         }
 
+        private string celsius;
         public string Celsius
         {
-            get => Celsius;
-            set => Celsius = WeatherModel.temp_c;
+            get => celsius;
+            set => celsius = weatherModel.temp_c;
 		}
 
+        private string time;
         public string Time
         {
-            get => Time;
-            set => Time = WeatherModel.observation_time;
+            get => time;
+            set => time = weatherModel.observation_time;
 		}
 
         public async Task InitializeGetWeatherAsync()
         {
             weatherModel = await weatherAPI.GetWeatherData();
+
+            fahrenheit = weatherModel.temp_f;
+            celsius = weatherModel.temp_c;
+            time = weatherModel.observation_time;
         }
 
     }
